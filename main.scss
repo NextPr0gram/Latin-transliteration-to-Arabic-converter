@@ -1,0 +1,95 @@
+body {
+    background-color: #f0f0f0; /* Background color */
+    margin: 0;
+    font-family: helvetica;
+  
+    header {
+      margin: 0;
+      background-color: #d4d4d4;
+      margin-bottom: 4em;
+      display: flex;
+      align-items: center; /* Vertically center the item */
+      justify-content: space-between; /* Align the item to the right */
+      border-bottom: 2px solid rgb(207, 207, 207);
+  
+      h1 {
+        padding-left: 0.5em;
+        font-weight: bold;
+        /* Add any styles for the header's h1 if needed */
+        color: #333; /* Header text color */
+      }
+  
+      button {
+        padding: 0.7em;
+        margin-right: 1em;
+        border-radius: 50em;
+        border: none;
+        background-color: #4CAF50; /* Green button background color */
+        color: white; /* Text color for the button */
+      }
+    }
+  
+    .textareas {
+      margin: auto;
+      text-align: center;
+      padding: 0;
+      width: 100%;
+  
+      .labeled-textarea {
+        display: inline-block;
+        width: 40%;
+        margin-inline: 2em;
+  
+        label {
+          display: block;
+          font-size: 20px;
+          font-weight: bold;
+          color: #4c9aff; /* Label text color */
+        }
+        textarea {
+          resize: none;
+          padding: 10px;
+          width: 100%;
+          border-radius: 16px;
+          font-size: 32px;
+          background-color: #f8f8f8; /* Textarea background color */
+          border: 2px solid #a5a5a5; /* Textarea border color */
+          color: #333; /* Text color for the textarea */
+        }
+      }
+    }
+  
+    .info {
+      list-style-type: none;
+      text-align: center;
+  
+      .cell {
+        font-size: 24px;
+        display: inline-block;
+        padding: 1em;
+        margin: 5px;
+        border-radius: 5px;
+        background-color: #4c9aff; /* Blue cell background color */
+        color: white; /* Text color for the cell */
+  
+        .letter,
+        .transliteration {
+          padding-block: 5px;
+          color: #fff; /* Text color for the letter and transliteration */
+        }
+      }
+    }
+
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+  }
+  
