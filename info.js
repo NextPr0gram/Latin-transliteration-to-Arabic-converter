@@ -38,8 +38,7 @@ const LETTERLIST = [
     ["aa", "\u064Eاْ"],
     ["ii", "\u0650يْ"],
     ["uu", "\u064Fوْ"],
-    ["Shaddaad", "ّ"],
-    ["Sukoon", "ْ"]
+    ["Double letter", "ّ"],
 ]
 let info = document.getElementById("info")
 info
